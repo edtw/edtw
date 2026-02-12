@@ -82,7 +82,7 @@ Kodachi, Ubuntu, Windows Server (VMs)
 ### Certifications & Training
 
 - **OSCP** (In Progress)
-- **TryHackMe** — [Active Profile](https://tryhackme.com/p/pv_)
+- **TryHackMe** — [Active Profile](https://tryhackme.com/p/pv)
 
 ---
 
