@@ -39,7 +39,7 @@ I build offensive tools and break security assumptions. Currently preparing for 
 Head Developer & Audio Lead Design (2 years). Marvel-inspired combat system with custom audio engine. 7.2M+ visits.
 
 **Agentic AI Automator** — Business Process Automation  
-Python pipeline integrating GPT-4 for conversational workflow automation. Built end-to-end: API design, PostgreSQL modeling, Redis caching, Docker deployment. Reduced manual processes by 80% in production.
+Python pipeline integrating LLM for conversational workflow automation. Built end-to-end: API design, PostgreSQL modeling, Redis caching, Docker deployment. Reduced manual processes by 80% in production.
 
 **Project Chameleon** — Network Tunneling & Proxying
 Rust/Python hybrid for bypassing enterprise restrictions. Implements custom protocols for stealth networking and API routing. Designed for low-latency, high-concurrency environments.
@@ -49,14 +49,7 @@ Python orchestration layer with C++/Rust payloads. Simulates process injection, 
 
 **CAPTCHA Solver V2** — Computer Vision & Reverse Engineering  
 Full reverse engineering pipeline for CAPTCHA systems. PyTorch ViT for solving, coupled with statistical analysis suite for synthetic generation calibration.
-
-**Analysis Pipeline:**
-- `deep_background_analysis.py`: Extracts noise distribution via HoughLinesP (line detection), HoughCircles (interference patterns), and spatial density mapping in 5x5 grids. Generates comparative histograms for statistical validation.
-- `extract_complete_metrics.py`: Core reverse engineering module. Uses median/mode pixel analysis across grouped samples to mathematically separate static backgrounds from dynamic text. Auto-generates C# config snippets for synthetic generator.
-- `extract_color_palette.py`: K-Means clustering (sklearn) on extracted text pixels to identify exact RGB palette (16-20 dominant colors) with frequency distribution. Outputs production-ready ColorPalette class.
-- `parameter_extractor.py`: Unified orchestrator. Processes batches → detects primitives via Hough + LSD (Line Segment Detector) → aggregates statistics → generates final CaptchaConfig.cs. Includes hallucination filtering to reject false detections.
-
-**Tech:** PyTorch, OpenCV, scikit-learn, scipy, Vision Transformers
+**Tech:** PyTorch, OpenCV, scikit-learn, scipy, Vision Transformer.
 
 **Prisma Tech** — API Gateway & Backend Systems  
 Founded company providing Baileys integration and backend infrastructure. Go/Python services with PostgreSQL/MongoDB. Security-focused design with enterprise automation capabilities.
